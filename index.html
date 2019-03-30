@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery.js"></script>
+  <script src="js/scripts.js"></script>
+  <meta charset="utf-8">
+  <title>Track Suggester</title>
+</head>
+<body>
+  <div class="container">
+    <h2>Welcome to Epicodus Webpage</h2>
+    <br>
+    <br>
+    <h5>Please answer the 5 questions below to find which language is the right language for you to learn.<h5>
+
+      <form id="student">
+        <p>1-How old are you?</p>
+        <div class="form-group">
+          <label for="input1">age:</label>
+          <input id="age" class="form-control" type="text">
+        </div>
+
+        <p>2-Are you wishing to work in a big company or a small company?</p>
+        <select class="form-control" id="bigOrSmall">
+          <option>Big</option>
+          <option>Small</option>
+          <option>No-matter</option>
+        </select>
+        <br>
+
+        <p>3-Do you want to focus on front_end or back-end development?</p>
+        <select class="form-control" id="frontEnd-backEnd">
+          <option>Front-end</option>
+          <option>Back-end</option>
+          <option>I don't know</option>
+        </select>
+        <br>
+
+        <p>4-Do you want to study full time or part time?</p>
+        <div class="radio">
+          <label>
+            <input type="radio" name="FullTime-PartTime" value="Full-time" checked>
+            Full-time
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="FullTime-PartTime" value="Part-time">
+            Part-time
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="FullTime-PartTime" value="Part-time">
+            I am not sure yet!
+          </label>
+        </div>
+        <br>
+
+        <p>5-Do you want to work on server-side or creating applications?</p>
+        <div class="radio">
+          <label>
+            <input type="radio" name="which-side" value="Server-side" checked>
+            Server-side
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="which-side" value="Applications">
+            Applications
+          </label>
+        </div>
+        <br>
+        <button type="submit" class="btn-success">See the Result!</button>
+      </form>
+      <br>
+      <br>
+
+      <div id="suggestionOne">
+        <h3>Our suggestion for you is to take :</h3>
+        <li>CSS/Design</li>
+        <br>
+        <br>
+        <p>Also here is a list of all tracks we offer in Portland and Seattle:</p>
+        <ul>
+          <li>Ruby/Rails</li>
+          <li>PHP/Drupal</li>
+          <li>Java/Android</li>
+          <li>CSS/Design</li>
+          <li>C#/.NET</li>
+        </ul>
+        <p>If you would like to see our classroom please click <span class = clickable>here</span> .</p>
+        <img src="img/pic.jpg" alt="Epicodus classroom">
+      </div>
+
+      <div id="suggestionTwo">
+        <h3>Our suggestion for you is to take :</h3>
+        <li>PHP/Drupal</li>
+        <br>
+        <br>
+        <p>Also here is a list of all tracks we offer in Portland and Seattle:</p>
+        <ul>
+          <li>Ruby/Rails</li>
+          <li>PHP/Drupal</li>
+          <li>Java/Android</li>
+          <li>CSS/Design</li>
+          <li>C#/.NET</li>
+        </ul>
+        <p>If you would like to see our classroom please click <span class = clickable>here</span> .</p>
+        <img src="img/pic.jpg" alt="Epicodus classroom">
+      </div>
+
+      <div id=suggestionThree>
+        <h3>Our suggestion for you is to take :</h3>
+        <li>Java/Android</li>
+        <br>
+        <br>
+        <p>Also here is a list of all tracks we offer in Portland and Seattle:</p>
+        <ul>
+          <li>Ruby/Rails</li>
+          <li>PHP/Drupal</li>
+          <li>Java/Android</li>
+          <li>CSS/Design</li>
+          <li>C#/.NET</li>
+        </ul>
+        <p>If you would like to see our classroom please click <span class = clickable>here</span> .</p>
+        <img src="img/pic.jpg" alt="Epicodus classroom">
+      </div>
+
+      <div id=suggestionFour>
+        <h3>Our suggestion for you is to take :</h3>
+        <li>C#/.NET</li>
+        <br>
+        <br>
+        <p>-Also here is a list of all tracks we offer in Portland and Seattle:</p>
+        <ul>
+          <li>Ruby/Rails</li>
+          <li>PHP/Drupal</li>
+          <li>Java/Android</li>
+          <li>CSS/Design</li>
+          <li>C#/.NET</li>
+        </ul>
+        <p>If you would like to see our classroom please click <span class = clickable>here</span> .</p>
+        <img src="img/pic.jpg" alt="Epicodus classroom">
+      </div>
+
+    </div>
+  </body>
+</html>
